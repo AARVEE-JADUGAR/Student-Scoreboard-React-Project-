@@ -7,9 +7,9 @@ import "./styles.css";
 function App() {
   const [students, setStudents] = useState([
     { id: 1, name: "Tarun", score: 85 },
-    { id: 2, name: "Kritarth", score: 89 },
-    { id: 3, name: "Khushi", score: 90 },
-    { id: 4, name: "Jatin", score: 78 },
+    { id: 2, name: "Royal", score: 89 },
+    { id: 3, name: "Ravi", score: 90 },
+    { id: 4, name: "Karan", score: 78 },
   ]);
 
   const addStudent = (name, score) => {
